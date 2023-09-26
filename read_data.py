@@ -8,6 +8,8 @@ df.columns
 
 # Which factors are most associatd with high CO-2 emissions?
 df.sort_values(by='Co2-Emissions')
+df[['Co2-Emissions','Country']].sort_values(by='Co2-Emissions', ascending=True)
+df[['Co2-Emissions']]
 
 
 
